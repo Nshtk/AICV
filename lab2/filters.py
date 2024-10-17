@@ -76,7 +76,7 @@ def conv_fast(image, kernel):
 	Returns:
 		out: numpy array of shape (Hi, Wi).
 	"""
-	Hi, Wi = image.shape		#TODO
+	Hi, Wi = image.shape
 	Hk, Wk = kernel.shape
 	out = np.zeros((Hi, Wi))
 
